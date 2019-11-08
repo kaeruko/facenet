@@ -61,6 +61,8 @@ def main(args):
                  
             paths, labels = facenet.get_image_paths_and_labels(dataset)
             
+            print('label: ',labels)
+
             print('Number of classes: %d' % len(dataset))
             print('Number of images: %d' % len(paths))
             
